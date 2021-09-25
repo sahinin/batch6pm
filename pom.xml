@@ -1,0 +1,10 @@
+<repository>
+  <id>offline-repository</id>
+  <url>file:///path/to/repo</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>false</enabled>
+  </snapshots>
+</repository>
