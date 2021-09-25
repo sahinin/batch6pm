@@ -1,10 +1,17 @@
-<repository>
-  <id>offline-repository</id>
-  <url>file:///path/to/repo</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>false</enabled>
-  </snapshots>
-</repository>
+<project>
+  <dependencies>
+    <dependency>
+      <artifact id>emailing</artifact id>
+      <group id>emailing</group id>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <artifact id>junit</artifact id>
+      <group id>junit</group id>
+      <version>3.0</version>
+      <scope>test</scope>
+    </dependency>
+    </dependencies>
+</project>
